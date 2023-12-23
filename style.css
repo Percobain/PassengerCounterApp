@@ -1,0 +1,38 @@
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+body {
+    background-image: url("1.jpg");
+    text-align: center;
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+html {
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh;
+}
